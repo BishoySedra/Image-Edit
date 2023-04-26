@@ -1,0 +1,51 @@
+/*
+      misc styles, nothing to do with CSS variables
+    */
+:root {
+    --base: yellow;
+    --blur: 10px;
+    --spacing: 10px;
+}
+
+
+body {
+    text-align: center;
+    background: #193549;
+    color: white;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.hl {
+    color: var(--base);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.controls {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    direction: ltr;
+}
+
+input {
+    width: 25%;
+}
+
+img {
+    width: 30%;
+    height: 30%;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+    -webkit-filter: blur(var(--blur));
+}
+
+.inside{
+    display: flex;
+}

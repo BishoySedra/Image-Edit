@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Image Edit</title>
+  <link rel="icon" href="https://fav.farm/🔥" />
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <h2>Update CSS Variables with <span class='hl' style="color:yellow">JS</span></h2>
+
+  <div class="container">
+
+    <div class="controls">
+
+      <div class="inside">
+        <span>Spacing:</span>
+        <input id="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+      </div>
+
+      <div class="inside">
+        <span>Blur:</span>
+        <input id="blur" type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
+      </div>
+
+      <div class="inside">
+        <span>Base Color:</label>
+        <input id="base" type="color" name="base" value="#ffc600">
+      </div>
+
+      <div class="inside">
+        <span>Choose Your Image:</span>
+        <input id="image" type="file" name="image" accept="image/*">
+      </div>
+
+    </div>
+
+    <img src="https://source.unsplash.com/7bwQXzbF6KE/800x500">
+  
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
